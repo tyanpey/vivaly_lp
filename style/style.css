@@ -22,7 +22,7 @@
 img{
     width: 100%;
     height: auto;
-    /* object-fit: contain; */
+    align-self: flex-start;
 }
 
 svg{
@@ -48,7 +48,7 @@ a{
     background-color: var(--gray);
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 600px) {
     .container{
         width: 100%;
         padding: 0 10px;
@@ -243,6 +243,7 @@ a{
 
 .point__image{
     width: 100%;
+
     display: flex;
     margin-top: 14px;
 }
