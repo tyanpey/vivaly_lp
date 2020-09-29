@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Rubik:wght@700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    font-size: 16px;
+    --black: #000000;
+    --white: #ffffff;
+    --gray: #F5F5F5;
+    --blue: #00A3FF ;
+    --orange: #FFAA5C;
+    --footer: #FFC794;
+    --dark-gray: #525252;
+    color: var(--black);
+    margin: 0;
+    padding: 0;
+    cursor: unset;
+    scroll-behavior: smooth;
+}
+
+img{
+    width: 100%;
+}
+
+svg{
+    width: 100%;
+}
+
+a{
+    color: var(--black);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.section{
+    width: 100%;
+}
+
+.section--gray{
+    background-color: var(--gray);
+}
+
+@media only screen and (max-width: 800px) {
+    .container{
+        width: 100%;
+        padding: 0 10px;
+    }
+  }
+/* titles */
+.title{
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.title--white{
+    color: var(--white);
+}
+
+.subtitle{
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* buttons */
+
+.btn-row{
+    width: 100%;
+    display: flex;
+}
+
+.btn{
+    padding: 10px 0;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn--l{
+    width: 80%;
+}
+
+.btn--blue{
+    background-color: var(--blue);
+    color: var(--white);
+    font-weight: bold;
+}
+
+
+/* HEADER */
+.header{
+    width: 100%;
+    
+    padding-top: 20px;
+    background: rgb(255,170,92);
+    background: linear-gradient(156deg, rgba(255,170,92,1) 0%, rgba(249,218,164,0.7315301120448179) 67%, rgba(246,233,186,0) 100%);}
+
+.header__logo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 55px;
+}
+
+.logo{
+    width: 100%;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+    color: var(--white);
+}
+
+.logo--gray{
+    color: var(--dark-gray);
+}
+
+.catch{
+    width: 100%;
+    font-size: 12px;
+    color: var(--white);
+}
+
+.catch--gray{
+    color: var(--dark-gray);
+}
+
+.header__info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.header__text{
+    width: 100%;
+    text-align: center;
+    color: var(--white);
+}
+
+.header__img{
+    width: 80%;
+    padding: 39px 0;
+    margin: 0 auto;
+}
+
+/* FOOTER */
+.footer{
+    width: 100%;
+    padding: 19px;
+    background-color: var(--footer);
+}
+
+.footer__logo{
+    width: 100%;
+    margin-bottom: 28px;
+}
+
+
+/* MAIN BODY */
+/* social media */
+.social-media{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 34px 0;
+}
+
+.social-media__icon-block{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.social-media__icon{
+    width: 33px;
+    height: 33px;
+}
+
+.social-media__text-block{
+    width: 100%;
+    margin: 24px 0 18px;
+}
+
+.socail-media__text{
+    width: 100%;
+    text-align: center;
+}
+
+.socail-media__emoji{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 7px;
+    font-size: 28px;
+}
+
+/* point */
+
+.point{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px 0 50px;
+}
+
+.point--padding{
+    margin: 0;
+    padding: 40px 0 50px;
+}
+
+.point__number{
+    font-size: 24px;
+    color: var(--orange);
+    font-weight: bold;
+    font-style: italic
+}
+
+.point__text{
+    width: 100%;
+    text-align: center;
+    margin: 14px 0 21px;
+}
+
+.point__image-block{
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.point__image{
+    width: 100%;
+    display: flex;
+    margin-top: 14px;
+}
+
+.point__image:first-of-type{
+    margin-top: 0px;
+}
+
+/* About vivaly. */
+
+.about{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 28px;
+}
+
+.about__img{
+    width: 90%;
+    margin-left: auto;
+}
+
+.about__line{
+    width: 80%;
+    height: 1px;
+    background-color:rgba(0, 0, 0, 0.1);
+    margin: 6px auto 36px;
+}
+
+.about__card{
+    width: 100%;
+    margin: 0 auto 28px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 35px 10px;
+    background-color: var(--white);
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.about__title{
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 14px;
+    text-align: center;
+}
+
+.about__text{
+    width: 100%;
+    text-align: center;
+}
+
+.about__svg{
+    margin: 18px auto 33px;
+    width: 70%;
+}
+
+.footer__links-block{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__link{
+    width: fit-content;
+    color: var(--white);
+    font-size: 12px;
+}
+
+.footer__link::after{
+    content: "|";
+    padding: 0 5px;
+}
+
+.footer__link:last-of-type::after{
+    content: "";
+}
+
+.footer__mail{
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+    color: var(--white);
+    margin: 20px 0 40px;
+}
+
+.footer__copyright{
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 8px;
+    color: var(--white);
+    text-align: center;
+}
