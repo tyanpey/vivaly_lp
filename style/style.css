@@ -33,7 +33,7 @@ a{
 }
 
 .container{
-    width: 800px;
+    width: 600px;
     margin: 0 auto;
 }
 
@@ -98,7 +98,7 @@ a{
 /* HEADER */
 .header{
     width: 100%;
-    
+
     padding-top: 20px;
     background: rgb(255,170,92);
     background: linear-gradient(156deg, rgba(255,170,92,1) 0%, rgba(249,218,164,0.7315301120448179) 67%, rgba(246,233,186,0) 100%);}
